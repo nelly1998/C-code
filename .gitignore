@@ -1,32 +1,12 @@
-# Prerequisites
-*.d
+#include <iostream>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main() { int i,n=100; double s=0;
+//cin>>n;
+for(i=0;i<=n;i++)
+s+= (i-1)*(i-1) ;
+cout<<"gumar@ ="<<"\t"<<s;
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+	return 0;
+}
